@@ -11,12 +11,14 @@
         <activity 
             android:name=".scan.ScanActivity"
             android:label="@string/scan"
-            android:launchMode="singleTask" >
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme" >
         </activity>
         <activity
             android:name=".crop.CropActivity"
             android:label="@string/crop"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
